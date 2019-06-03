@@ -1,0 +1,49 @@
+body *{
+    outline: 1px solid pink;
+}
+.container{
+    margin: 0px auto;
+    background-color: teal;
+}
+h1{
+    display: inline-block;
+    width: 50%;
+}
+
+#nav{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    
+}
+#nav ul li{
+    display: inline-block;
+    height: 75px;
+    font-size: 24px;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 1px solid black;
+}
+#nav a{
+    text-decoration: none;
+}
+#intro{
+}
+#imageofme{
+    display: inline-block;
+    width: 50%;
+    height: 400px;
+    vertical-align: top;
+}
+#aboutmeheader{
+    width: 49%;
+    display: inline-block;
+    font-size: 24px;
+}
+#aboutmeheader h2{
+    text-align: center;
+    background-color: grey;
+}
+#aboutmeheader p{
+    display: inline-block;
+}
